@@ -1,17 +1,6 @@
 # Building-co-expression-network-from-gene-expression-data
 Create and visualize gene interaction network starting from normalized gene expression counts (beginners)
 
----
-title: "Building co-expression network from gene expression data"
-author: "Malina Doynova"
-date: "3/30/2024"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 # 1. Install and load the required packages 
 ```{r packages}
 # if (!require("BiocManager", quietly = TRUE))
