@@ -51,7 +51,7 @@ diag(adjacency_matrix) <- 0
 head(adjacency_matrix[,1:20])
 ```
 
-# 5. Build undirected, unweighetd graph (network)
+# 5. Build undirected, unweighted graph (network)
 
 ```{r graph}
 graph <- graph_from_adjacency_matrix(adjacency_matrix , 
